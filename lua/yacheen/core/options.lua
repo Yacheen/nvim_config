@@ -17,3 +17,9 @@ opt.smartcase = true
 
 -- remove greybar on left side of vim
 opt.signcolumn = "no"
+vim.cmd([[
+augroup RestoreCursorShapeOnExit
+    autocmd!
+    autocmd VimLeave * set guicursor=a:hor20
+augroup END
+]])
