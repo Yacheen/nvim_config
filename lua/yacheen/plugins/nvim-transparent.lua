@@ -4,5 +4,5 @@ if not transparent_status then
 end
 
 transparent.setup({
-    enable = true,
+    enable = false,
 })
