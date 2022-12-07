@@ -4,7 +4,7 @@ if not gui_colors then
     return
 end
 
-local status, _ = pcall(vim.cmd, "colorscheme catppuccin_mocha")
+local status, _ = pcall(vim.cmd, "colorscheme kanagawa")
 if not status then
     print("Colorscheme not found")
     return
